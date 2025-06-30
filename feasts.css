@@ -1,0 +1,151 @@
+html{
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+body{
+    max-width: 686px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'Times New Roman', Times, serif 
+}
+h1{
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    margin: 0;
+    line-height: 1em;
+}
+h2{
+    font-size: 1.7rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-style:initial;
+    padding: .5rem;
+    text-align: center;
+    font-size: .7rem;
+}
+.navi{
+    background-color: black;
+    font-size: .7rem;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+}
+.hmo{
+    text-align: center;
+    position: relative;
+   
+}
+.hmo img{
+    max-width: 100%;
+}
+
+.rr{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.coco{
+    display: flow-root;
+}
+.coco .p{
+    margin-block: 0;
+}
+.float{
+    float: left;
+    width:50%;
+}
+ .cloat{
+    float: right;
+    width: 50%;
+ }
+ #map{
+    display: flex;
+    justify-content: space-between;
+ }
+ iframe{
+    float: right;
+    width: 50%;
+    
+ }
+ h2{
+    border: 0;
+    padding-top: 0;
+ }
+.first-para{
+    text-align: center;
+}
+.first-para p{
+    margin: 0;
+} 
+.munu{
+    text-align: center;
+}
+.fried{
+    text-align: center;
+}
+
+#form-div{
+    text-align: center;
+}
+#form{
+    padding: 0 15%;
+    display: grid;
+    grid-template-columns: auto;
+}
+textarea,input{
+    font-size: 1rem;
+}
+#menu-image{
+    max-width: 100%;
+}
+
+button{
+    background-color: #000;
+    font-size: 1.3rem;
+    color: aqua;
+}
+ dark-mode{
+    color: aqua;
+    background-color: #000;
+ }
+
+@media screen and (max-width:768px)  {
+    .coco{
+        display:flow-root;
+    }
+    .coco .p{
+        margin-block: 0;
+    }    
+}
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 10px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 600px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    body{
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+
+

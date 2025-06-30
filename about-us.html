@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChopLife</title>
+    <div class="navi"> 
+    <link rel="icon" href="/favcon.png/icon.JPG">
+    <a href="index.html" class="navi"> Home</a>
+    <a href="menu.html" class="navi">Menu</a>
+    <a href="about-us.html" class="navi">About</a>
+    <link rel="stylesheet" href="feasts.css">
+    </div>
+</head>
+<body>
+    <Header>
+        <div class="hmo">    
+            <img src="frontFood.JPG" alt="" >
+            <div class="rr">
+            <H1>About Us</H1>
+            #1 Mama's Cooking Hands
+            </div>
+        </div>
+    </Header>
+    <main>
+        <div>
+            <h2 class=" first-para"> Our Culture Our Pride</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Quam, repellendus. Lorem ipsum dolor, sit amet consectetur 
+                 adipisicing elit. Aliquam, corporis.
+            </p>
+        </div>
+        <div class="coco">
+            <img src="aboutUs.JPG" alt="family eating together" class="cloat">
+            <p class="cloat">
+                <h2>Our Story</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Fuga blanditiis soluta inventore quos aliquid quia. Natus
+                  animi quibusdam repellat quo?
+            </p>
+        </div>
+        <div class="coco">
+                <img src="active.JPG" alt="picture of a female chef cooking" class="float">
+                <p>
+                    <h2>Chef's Corner</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Nisi molestias assumenda eius quam atque adipisci,
+                      eveniet dolores ratione nemo quos.
+                </p>
+        </div>
+        <div  id= "map" class="coco">
+            <div>
+                <p>
+                    <h2>Our Address</h2> <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Temporibus ducimus quis quam, nostrum voluptates inventore
+                    porro? Est veniam et ducimus!
+                </p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d252162.39439199548!2d7.471104000000001!3d9.060352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1750029980821!5m2!1sen!2sng" 
+             style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </div>
+
+        <div id="form-div">
+            <h2>Send us a message</h2>
+        <form id="form" method="post">
+            <label name="EmailName">Email:</label>
+            <input id="mailInput" name="EmailName" type="email" !required> <br>
+            <label name="message">Message:</label>
+            <textarea id="message" name="message" type="text" rows="5" !required></textarea>
+            <div>
+                <button id="submit" type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+        </div>
+        
+    </main>
+    
+    <footer>
+        &copy;ChopLife <span id="yearDate">2020</span>        powered by Eazy does it
+    </footer>
+
+    <script src="appFeast.js"> </script>
+    <script>
+        app.feastAll();
+    </script>
+    
+</body>
+</html>
